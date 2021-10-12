@@ -10,3 +10,4 @@ class Solution:
 
 test = Solution()
 assert test.isPalindrome("A man, a plan, a canal: Panama")
+
