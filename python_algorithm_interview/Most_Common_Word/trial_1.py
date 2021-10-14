@@ -1,3 +1,8 @@
+# 819. 가장 흔한 단어
+'''
+금지된 단어를 제외한 가장 빈도수가 높은 단어를 출력하라. 대소문자 구분을 하지 않으며, 구두점 또한 무시한다.
+'''
+
 import re
 from collections import Counter
 
