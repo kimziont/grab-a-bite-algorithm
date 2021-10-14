@@ -12,8 +12,7 @@ class Solution:
         dic = defaultdict(list)
         answer = []
         for s in strs:
-            s_list = list(s)
-            tmp_s = "".join(sorted(s_list))
+            tmp_s = "".join(sorted(s))
             dic[tmp_s].append(s)
 
         for group in dic.values():
