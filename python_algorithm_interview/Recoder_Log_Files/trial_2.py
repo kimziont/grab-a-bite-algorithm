@@ -18,10 +18,10 @@ class Solution:
         for log in logs:
             if log[-1].isalpha():
                 char_list.append(log)
-                char_list.sort(key=lambda x: (x.split()[1:], x.split()[0]))
+                
             else:
                 num_list.append(log)
-
+        char_list.sort(key=lambda x: (x.split()[1:], x.split()[0]))
         return char_list + num_list
 
 
