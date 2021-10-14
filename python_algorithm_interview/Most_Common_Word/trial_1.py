@@ -18,8 +18,8 @@ class Solution:
             if ban in counter:
                 counter.pop(ban)
 
-        answer = counter.most_common(1)
-        print(answer[0][0])
+        answer = counter.most_common(1)[0][0]
+        print(answer)
 
 
 paragraph = "a, a, a, a, b,b,b,c, c"
